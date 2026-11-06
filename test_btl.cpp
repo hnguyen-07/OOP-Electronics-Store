@@ -489,7 +489,7 @@ int main()
 
     do
     {
-        std::cout << "\n========== STORE MANAGEMENT ==========\n"
+        std::cout << "\nSTORE MANAGEMENT\n"
                   << "1. Add product\n"
                   << "2. Show all products\n"
                   << "3. Search product\n"
@@ -559,7 +559,6 @@ int main()
 
             case 8:
             {
-                // Nếu hóa đơn chưa có sản phẩm thì nhập khách hàng mới
                 if(bill.isEmpty())
                 {
                     bill.inputCustomer();
